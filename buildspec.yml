@@ -19,7 +19,6 @@ env:
 
 proxy:
   UploadArtifacts: no | yes
-  Logs: no | yes
 
 batch:
   fast-fail: false | true
