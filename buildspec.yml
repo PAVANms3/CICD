@@ -17,8 +17,8 @@ env:
     key: secret-id:json-key:version-stage:version-id
   # GitCredentialHelper: no | yes
 
-proxy:
-    UploadArtifacts: false | true
+# proxy:
+#     UploadArtifacts: false | true
 
 batch:
   fast-fail: false | true
