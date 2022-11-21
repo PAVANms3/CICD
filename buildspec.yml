@@ -15,10 +15,10 @@ env:
     - variable
   secrets-manager:
     key: secret-id:json-key:version-stage:version-id
-  GitCredentialHelper: no | yes
+  # GitCredentialHelper: no | yes
 
 proxy:
-  UploadArtifacts: no | yes
+  # UploadArtifacts: no | yes
 
 batch:
   fast-fail: false | true
@@ -72,17 +72,17 @@ reports:
       - location
       - location
     base-directory: location
-    DiscardPaths: no | yes
+    # DiscardPaths: no | yes
     file-format: report-format
 artifacts:
   files:
     - location
     - location
   name: artifact-name
-  DiscardPaths: no | yes
+  # DiscardPaths: no | yes
   base-directory: location
   exclude-paths: excluded paths
-  EnableSymlinks: no | yes
+  # EnableSymlinks: no | yes
   s3-prefix: prefix
   secondary-artifacts:
     artifactIdentifier:
@@ -90,13 +90,13 @@ artifacts:
         - location
         - location
       name: secondary-artifact-name
-      DiscardPaths: no | yes
+      # DiscardPaths: no | yes
       base-directory: location
     artifactIdentifier:
       files:
         - location
         - location
-      DiscardPaths: no | yes
+      # DiscardPaths: no | yes
       base-directory: location
 cache:
   paths:
