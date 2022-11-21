@@ -82,7 +82,7 @@ artifacts:
   DiscardPaths: no | yes
   base-directory: location
   exclude-paths: excluded paths
-  enable-symlinks: no | yes
+  EnableSymlinks: no | yes
   s3-prefix: prefix
   secondary-artifacts:
     artifactIdentifier:
