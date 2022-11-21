@@ -73,14 +73,14 @@ reports:
       - location
       - location
     base-directory: location
-    discard-paths: no | yes
+    DiscardPaths: no | yes
     file-format: report-format
 artifacts:
   files:
     - location
     - location
   name: artifact-name
-  discard-paths: no | yes
+  DiscardPaths: no | yes
   base-directory: location
   exclude-paths: excluded paths
   enable-symlinks: no | yes
@@ -91,13 +91,13 @@ artifacts:
         - location
         - location
       name: secondary-artifact-name
-      discard-paths: no | yes
+      DiscardPaths: no | yes
       base-directory: location
     artifactIdentifier:
       files:
         - location
         - location
-      discard-paths: no | yes
+      DiscardPaths: no | yes
       base-directory: location
 cache:
   paths:
