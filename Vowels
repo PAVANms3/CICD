@@ -9,4 +9,4 @@ def Check_Vow(string, vowels):
 # Driver Code
 string = "Geeks for Geeks"
 vowels = "AaEeIiOoUu"
-Check_Vow(string, vowels);
+Check_Vow(string, vowels)
