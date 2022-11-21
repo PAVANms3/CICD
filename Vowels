@@ -1,6 +1,8 @@
 # Python code to count and display number of vowels
 # Simply using for and comparing it with a
 # string containing all vowels
+from cryptography.fernet import Fernet
+
 def Check_Vow(string, vowels):
 	final = [each for each in string if each in vowels]
 	print(len(final))
@@ -10,3 +12,7 @@ def Check_Vow(string, vowels):
 string = "Geeks for Geeks"
 vowels = "AaEeIiOoUu"
 Check_Vow(string, vowels)
+
+key = Fernet.generate_key()
+encMessage = fernet.encrypt(message.encode())
+decMessage = fernet.decrypt(encMessage).decode()
