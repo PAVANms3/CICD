@@ -1,0 +1,5 @@
+npm i -g serverless && serverless \
+    --org=mspa2 \
+    --app=aws-python \
+    --name=aws-python \
+    --template=aws-python
